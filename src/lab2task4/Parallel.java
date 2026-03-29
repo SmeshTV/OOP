@@ -19,7 +19,7 @@ public class Parallel extends Circuit {
 
     @Override
     public double getPotentialDiff() {
-        return c1.getPotentialDiff();  // в параллели одинаковое напряжение
+        return c1.getPotentialDiff();
     }
 
     @Override

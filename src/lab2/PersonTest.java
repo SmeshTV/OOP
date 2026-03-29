@@ -65,9 +65,9 @@ public class PersonTest {
         HashSet<Vehicle> set = new HashSet<>();
 
         set.add(new Vehicle("Toyota", 2020));
-        set.add(new Vehicle("Toyota", 2020));               // дубликат
+        set.add(new Vehicle("Toyota", 2020));
         set.add(new ElectricCar("Tesla", 2023, 75));
-        set.add(new ElectricCar("Tesla", 2023, 75));        // дубликат
+        set.add(new ElectricCar("Tesla", 2023, 75));
 
         System.out.println("Unique vehicles: " + set.size());
         for (Vehicle v : set) {

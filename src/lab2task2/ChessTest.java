@@ -23,7 +23,6 @@ public class ChessTest {
             System.out.println();
         }
 
-        // Bonus - simple console board example
         System.out.println("=== Simple Board Example ===");
         drawSimpleBoard(pieces);
     }

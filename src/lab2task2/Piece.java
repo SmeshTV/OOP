@@ -1,7 +1,7 @@
 package lab2task2;
 public abstract class Piece {
     protected Position position;
-    protected boolean isWhite;  // true = белые, false = чёрные
+    protected boolean isWhite;
 
     public Piece(Position position, boolean isWhite) {
         this.position = position;

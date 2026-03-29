@@ -13,7 +13,6 @@ public class King extends Piece {
         int rowDiff = Math.abs(target.getRow() - position.getRow());
         int colDiff = Math.abs(target.getCol() - position.getCol());
 
-        // King moves one square in any direction (including diagonal)
         return rowDiff <= 1 && colDiff <= 1;
     }
 }

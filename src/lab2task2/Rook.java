@@ -11,7 +11,6 @@ public class Rook extends Piece {
         if (!target.isValid()) return false;
         if (target.equals(position)) return false;
 
-        // Rook moves horizontally or vertically any number of squares
         return target.getRow() == position.getRow() || target.getCol() == position.getCol();
     }
 }

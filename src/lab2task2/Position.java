@@ -1,8 +1,8 @@
 package lab2task2;
 
 public class Position {
-    private int row;    // 0..7 (строки, 0 = 8-я горизонталь, 7 = 1-я)
-    private int col;    // 0..7 (файлы, 0 = a, 7 = h)
+    private int row;
+    private int col;
 
     public Position(int row, int col) {
         this.row = row;

@@ -10,12 +10,11 @@ public class CircuitTest {
         Circuit d = new Resistor(3.0);
         Circuit e = new Resistor(2.0);
 
-        Circuit f = new Series(a, b);          // 3 + 3 = 6 Ω
-        Circuit g = new Parallel(c, d);        // 6 || 3 = 2 Ω
-        Circuit h = new Series(g, e);          // 2 + 2 = 4 Ω
-        Circuit circuit = new Parallel(h, f);  // 4 || 6 ≈ 2.4 Ω
+        Circuit f = new Series(a, b);          // 3 + 3 = 6!
+        Circuit g = new Parallel(c, d);        // 6 || 3 = 2!
+        Circuit h = new Series(g, e);          // 2 + 2 = 4!
+        Circuit circuit = new Parallel(h, f);  // 4 || 6 ≈ 2.4!
 
-        // Применяем напряжение ко всей цепи
         circuit.applyPotentialDiff(12.0);
 
         System.out.println("Эквивалентное сопротивление всей цепи: "
